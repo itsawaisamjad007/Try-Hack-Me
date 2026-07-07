@@ -26,14 +26,16 @@
                     Network card of 10 GB and 2 no of Power Supply
                     To store data of apps software i.e youtube , facebook
                     , GMail .
+![server .png](Images/server%20.png)
+
                                 Types :
                                          Web server , Database server ,
                                           Game Server, Email server ,
                                            Cloud Server .
 
                  * Mainframe :-
-                               It is very big and powerful computer
-                   It is very powerful computer in the world . It is
+                               It is very big and powerfulIt is
+                   very powerful computer in the world . It is
                    like a cabinet . It is use in bank for
                    ATM transaction , to keep record of accounts . It
                    is used in airline for flight booking , ticket
