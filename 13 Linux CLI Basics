@@ -1,0 +1,120 @@
+Linux CLI Basic :-
+
+        Basic Commands :-
+                         * pwd :
+                                Print working directory
+                         * ls /dir:
+                               List of Folder.
+                         * tree :
+                                 To see tree of folders.
+                         * ls -la :
+                                   List of hidden file in detail.
+                         * cd < Folder name > :
+                                             Change directory.
+                         * cd .. :
+                                  To move one director back.
+                         * cd ~ :
+                                 To move to home location.
+                         * cd / :
+                                 To move to root location .
+                         * cat < file.txt > :
+                                            To read a file.
+                         * touch < file.txt > :
+                                             To create an empty file.
+ VIP                     * nano < file.txt > :
+                                             To edit a file.
+                         * gedit < file.txt > :
+                                              To edit a file.
+                         * less :
+                                 To see short of content in a  long file .
+                         * head :
+                                To see top of content in a long file.
+                         * tail :
+                                 To see bottom of content of long file.
+                         * ./ :
+                               To execute a shell file.
+                         * wc -l :
+                                  To count number of line of file.
+                         * cp <file> Location :
+                                               To copy a file
+                         * cp -r :
+                                  To copy directory
+                         * rm :
+                               To remove file or directory.
+                         * rm <file.txt> :
+                                               To remove a file.
+                         * grep word <file.txt> :
+                                                 To Find a word from 1000 of words in file like password.
+                         * mkdir :
+                                    To create a directory.
+                         * rmdir :
+                                    To remove a directory.
+                         * sudo su :
+                                    To take root permission.
+                         * Chmod +x < File.txt > :
+                                                  To give execution control to a file.
+                         * history :
+                                   To see history of commands
+                         * clear :
+                                  To clear terminal.
+                         * man < command > :
+                                            To see manual or detail of a command.
+                         * < command > --help :
+                                             To see help about command.
+                         * What is < command > :
+                                                To see short intro of command.
+                         * who is < google.com > :
+                                                  To see full detail of any domain.
+                         * df -h :
+                                  Hard disk report .
+                         * free -h :
+                                    RAM health report.
+                         * uname -a :
+                                    System version detail.
+                         * ping < google.com > :
+                                                speed of packet sending and response.
+                         * traceroute < google.com > :
+                                                      packet send rout info
+                         * netstat :
+                                   To check which port is open.
+                         * dig < google.com > :
+                                              To check ip of domain.
+                         * nslookup < google.com > :
+                                                    To check domain and ip of web in fast way.
+                         * whois < google.com > :
+                                                To see max detail of web.
+                         * Ctrl + Z :
+                                     To pause a command in terminal .
+                         * fg :
+                                 To resume pause command on foreground
+
+ 90% apt error solve :-
+                      * sudo apt update
+                      * apt install --fix-broken
+                      * apt install --fix-missing
+                      * apt clean ➡ apt update
+                      * rm -rf /var/lib/apt/lists/* ➡ apt update
+                      * dpkg -a --configure
+                      * apt auto remove
+                      * apt upgrade -y
+
+               * journalctl -xe : To tag the error .
+
+Change MAC Address :-
+                    MAC address is divide into three layers
+                    * New Mac
+                    * Current MAc
+                    * Permanent Mac
+
+ When we change mac address first time the mac of new mac layer change when we again change
+ mac address the current address is replaced by new mac and new mac newly enter mac is placed.
+
+     To Change MAC : macchanger eth0 -m ( new mac )
+                    if we run this command two time then current layer also replaced.
+
+To change user info in sending packet to browse :-
+                                                 Add extension  of ( Random user agent )
+
+To change IP address :-
+                      Use VPN or TOR Browser proxy but proxy is best.
+
