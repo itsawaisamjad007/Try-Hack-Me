@@ -1,0 +1,44 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       OPERATING SYSTEM (OS) SECURITY BASICS                              |
+|                      =======================================                             |
+|                                                                                          |
+|   OS Security ka matlab hai wo processes aur mechanisms jinse hum computer ke            |
+|   hardware, software, aur data ko threats aur unauthorized access se bachatay hain.     |
+|                                                                                          |
+| ┌──────────────────────┬─────────────────────────┬──────────────────────────────────────┐|
+| │     CORE CONCEPT     │      WHAT IT DOES       │             DESCRIPTION              │|
+| ├──────────────────────┼─────────────────────────┼──────────────────────────────────────┤|
+| │ 🔐 Authentication    │ Verifies Identity       │ User asli hai ya nahi? Check karna   │|
+| │                      │                         │ via Passwords, PINs, ya Biometrics.  │|
+| │                      │                         │                                      │|
+| │ 🎛️ Authorization     │ Grants Permissions      │ Kamyab login ke baad user kya dekh   │|
+| │                      │                         │ sakta hai? Access levels set karna.  │|
+| │                      │                         │                                      │|
+| │ 🛡️ Firewall          │ Filters Network Traffic │ Incoming/Outgoing traffic ko scan    │|
+| │                      │                         │ karke hacker attacks ko rokna.       │|
+| │                      │                         │                                      │|
+| │ 🦠 Anti-Malware      │ Detects & Destroys      │ Viruses, Worms, aur Trojan Horses ko │|
+| │                      │                         │ system se dhoond kar khatam karna.   │|
+| │                      │                         │                                      │|
+| │ 🔑 Encryption        │ Protects Data           │ Normal text ko unreadable code me    │|
+| │                      │                         │ badalna taake koi data chura na sake.│|
+| └──────────────────────┴─────────────────────────┴──────────────────────────────────────┘|
+|                                                                                          |
+|  🛡️ MAJOR OS THREATS (System ke Khatray) :-               💡 Security Golden Rules:      |
+| ───────────────────────────────────────────              ───────────────────────────     |
+|  * Malware --> Malicious software jo system ko            -> Least Privilege: User ko    |
+|    nuksan pohnchata hai (Virus, Ransomware).                 sirf utna access do jitna   |
+|  * Phishing --> Fake pages dikha kar user se unke            kaam ke liye zaroori ho.    |
+|    personal passwords chori karna.                        -> Patch Regularly: Apne OS ko |
+|  * Brute Force --> Baar baar automated tarike se             hamesha update rakhein taake|
+|    guesstimate karke password crack karna.                   security bugs fix hon.      |
+|                                                                                          |
+|   Quick Revision Quiz                                                                    |
+|  ─────────────────────                                  ┌─────────────┐                  |
+|   1. Password lagana Authentication ka hissa            │   Secure    │ 4. Hard drive ko |
+|      hai ya Authorization ka?                           │    Your     │    encrypt kyun  |
+|   2. Firewall ka main maqsad kya hota hai?              │   System!   │    kiya jata     |
+|   3. Windows me default security tool konsa             │    (🔒)     │    hai?          |
+|      hota hai? (Hint: Windows Defender)                 └─────────────┘                  |
+|__________________________________________________________________________________________|

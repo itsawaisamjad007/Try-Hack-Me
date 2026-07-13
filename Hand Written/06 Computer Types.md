@@ -26,7 +26,7 @@
                     Network card of 10 GB and 2 no of Power Supply
                     To store data of apps software i.e youtube , facebook
                     , GMail .
-![server .png](Images/server%20.png)
+![server .png](Cheat sheat notes/server%20.png)
 
                                 Types :
                                          Web server , Database server ,
