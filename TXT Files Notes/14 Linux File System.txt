@@ -1,0 +1,40 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                     LINUX FILE SYSTEM HIERARCHY (FHS)                                    |
+|                    ===================================                                   |
+|                                                                                          |
+|             [ / ]  <--- ROOT DIRECTORY (Sab files aur folders ka baap)                   |
+|               │                                                                          |
+|     ┌─────────┼─────────┬─────────┬─────────┬─────────┬─────────┬─────────┐              |
+|     ▼         ▼         ▼         ▼         ▼         ▼         ▼         ▼              |
+|   [/bin]   [/boot]   [/dev]    [/etc]    [/home]   [/root]   [/var]    [/tmp]            |
+|                                                                                          |
+| ┌───────────────┬──────────────────────────────────────────────────────────────────────┐ |
+| │   DIRECTORY   │                  DESCRIPTION & USE (Istemal)                         │ |
+| ├───────────────┼──────────────────────────────────────────────────────────────────────┤ |
+| │  / (Root)     │ Main starting point. Linux ka saara data iske andar hota hai.       │ |
+| │  /bin         │ Essential User Binaries (Aam commands jaise: ls, cd, cp, mkdir).     │ |
+| │  /boot        │ Boot loader files, Linux Kernel aur startup data yahan hota hai.     │ |
+| │  /dev         │ Device files (Hardware interfaces jaise USB, Hard Drive, Mouse).     │ |
+| │  /etc         │ System Configuration files (System aur apps ki main settings).       │ |
+| │  /home        │ Users ka personal data (Jaise Windows me 'C:/Users/YourName' hota hai)│|
+| │  /root        │ Administrator/Superuser ka apna personal home folder.                │ |
+| │  /var         │ Variable data files (System logs, crash reports, aur mail queues).    │ |
+| │  /tmp         │ Temporary files (PC restart hone par yeh khud saaf ho jata hai).     │ |
+| └───────────────┴──────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  💡 GOLDEN RULES FOR LINUX :-                             🧠 Quick Tips:                 |
+| ──────────────────────────────                            ──────────────                 |
+|  * Linux Case-Sensitive hai: 'File.txt' aur 'file.txt'     -> Kisi bhi directory se wapis |
+|    do alag alag files shamil hoti hain.                      home folder me jaane ke liye|
+|  * Hidden Files: Linux me jis file ke naam ke shuru          sirf 'cd ~' type karein.     |
+|    me dot (.) laga ho, wo hidden hoti hai (.mydata).      -> System admin privileges ke  |
+|                                                              liye 'sudo' use hota hai.   |
+|                                                                                          |
+|   Practice Tasks                                                                         |
+|  ────────────────                                  ┌─────────────┐                       |
+|   1. Root directory me jaane ke liye terminal par  │ Linux Rules │ 4. Path check karne   |
+|      'cd /' likh kar check karein.                 │    🐧🐧     │    ke liye 'pwd'      |
+|   2. Apni current home directory dekhne ke liye     │  (Open Src) │    (Print Working    |
+|      'echo $HOME' command chalayein.               └─────────────┘    Directory) chalao. |
+|__________________________________________________________________________________________|

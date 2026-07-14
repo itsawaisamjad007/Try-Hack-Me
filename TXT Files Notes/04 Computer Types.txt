@@ -1,0 +1,61 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                        CLASSIFICATION OF COMPUTERS: BASIC LAYOUT                         |
+|                       ===========================================                        |
+|                                                                                          |
+|   Computers ko aam taur par unke Size/Power aur unke Data-Handling (Working) ke          |
+|   mutabiq categorize kiya jata hai. Niche iska mukammal map diya gaya hai:               |
+|                                                                                          |
+| ┌────────────────────────────────────────────────________________________________──────┐ |
+| │                            TYPES OF COMPUTERS (The Main Map)                         │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │                                                                                      │ |
+| │                       ┌───────────────────┴───────────────────┐                      │ |
+| │                       ▼                                       ▼                      │ |
+| │             [ BY SIZE & POWER ]                      [ BY DATA-HANDLING ]            │ |
+| │             - Supercomputers                         - Analog Computers              │ |
+| │             - Mainframes                             - Digital Computers             │ |
+| │             - Minicomputers                          - Hybrid Computers              │ |
+| │             - Microcomputers (PC/Laptop)                                             │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────┬───────────────────────────────────────────────────────────────┐ |
+| │  1. BY SIZE & POWER  │                  DESCRIPTION & USE (Istemal)                  │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 🚀 Supercomputer     │ Dunya ke sab se tez aur mehnge computers. Weather forecasting │ |
+| │                      │ aur space research me use hote hain (e.g., NASA).             │ |
+| │ 🏢 Mainframe         │ Bohat bare aur powerful computer jo banks aur insurance        │ |
+| │                      │ companies me hazaron users ka data ek sath process karte hain.│ |
+| │ 📟 Minicomputer      │ Medium-sized computers jo choti companies ya servers ke tor    │ |
+| │                      │ par use hote hain (Microcomputers se zyada tez hote hain).     │ |
+| │ 💻 Microcomputer     │ Humare aam laptops, desktops, smartphones, aur tablets. Inme  │ |
+| │                      │ single microprocessor chip lagi hoti hai.                     │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │  2. BY DATA TYPE     │                  DESCRIPTION & USE (Istemal)                  │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 📈 Analog            │ Continuous physical values ko measure karne ke liye (jaise    │ |
+| │                      │ Temperature, Pressure, Speedometer, ya Thermometer).          │ |
+| │ 🔢 Digital           │ Yeh sirf binary data (0 aur 1) par kaam karte hain. Humare    │ |
+| │                      │ aam personal computers aur smartphones digital hote hain.      │ |
+| │ 🔄 Hybrid            │ Analog + Digital ka mix. Yeh digital counting bhi karte hain   │ |
+| │                      │ aur physical values ko bhi measure (jaise Hospital ki ICU     │ |
+| │                      │ machine jo heartbeats aur blood pressure dono check karti hai).│ |
+| └──────────────────────┴───────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  💡 Quick Definitions:                                     🧠 Quick Tips for Exams:       |
+| ────────────────────────                                   ────────────────────────       |
+|  * Microprocessor: Single chip CPU jo aam gharon ke        -> Sab se pehla general-purpose|
+|    computers (Microcomputers) me lagaya jata hai.              digital computer 'ENIAC'   |
+|  * Volatile: Jo computer band hone par data bhool jaye.        tha.                       |
+|  * Non-Volatile: Permanent memory (Storage).               -> Microcomputers ko 'Personal |
+|                                                                Computers' (PC) bhi kehte  |
+|                                                                hain.                      |
+|                                                                                          |
+|   Quick Revision Quiz                                                                    |
+|  ─────────────────────                                 ┌─────────────┐                   |
+|   1. Hospital ki ECG/ICU machine kis category me        │  Computer   │ 4. NASA wale     |
+|      aati hai? (Hint: Hybrid)                           │   Classes   │    weather ki    |
+|   2. Aapka mobile kis type ka computer hai?             │    💻⚡     │    forecasting me|
+|   3. Sab se tez computers kaun se hote hain?            └─────────────┘    kaun sa PC     |
+|                                                                            use karte hain?|
+|__________________________________________________________________________________________|

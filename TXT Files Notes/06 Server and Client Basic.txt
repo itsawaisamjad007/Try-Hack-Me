@@ -1,0 +1,48 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       CLIENT-SERVER ARCHITECTURE: BASIC LAYOUT                           |
+|                      ==========================================                          |
+|                                                                                          |
+|   Client-Server ek networking model hai jahan ek computer (Client) request bhejta hai    |
+|   aur dusra powerful computer (Server) us request ka jawab (Response) deta hai.          |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                             THE REQUEST-RESPONSE CYCLE                               │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │                                                                                      │ |
+| │     ┌───────────────┐          1. HTTP Request (Mujhe page do)        ┌────────────┐ │ |
+| │     │  [💻 CLIENT]  │ ──────────────────────────────────────────────► │ [🖥️ SERVER]│ │ |
+| │     │               │ ◄────────────────────────────────────────────── │            │ │ |
+| │     └───────────────┘         2. HTTP Response (Yeh lo HTML/Data)     └────────────┘ │ |
+| │    (Browser/Mobile)                                                  (Data Center)   │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────┬───────────────────────────────────────────────────────────────┐ |
+| │      COMPONENT       │                  DESCRIPTION & ROLE (Kirdar)                  │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 📱 Client            │ User Interface. Wo device ya application jise aam banda       │ |
+| │                      │ istemal karta hai (e.g., Google Chrome, WhatsApp App, Laptop).│ |
+| │ 🖥️ Server            │ Resource Provider. Ek powerful computer jo 24/7 on rehta hai  │ |
+| │                      │ aur data store karke clients ki requests ko serve karta hai.   │ |
+| │ 📨 Request           │ Client ka server se kuch mangna (e.g., Jab aap YouTube par     │ |
+| │                      │ kisi video par click karte hain to wo ek request hoti hai).   │ |
+| │ 📦 Response          │ Server ka client ko data bhejna (e.g., Video ka play ho jana   │ |
+| │                      │ ya '404 Not Found' ka error aana).                            │ |
+| └──────────────────────┴───────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  📊 COMMON TYPES OF SERVERS:                              💡 Real-Life Comparison:       |
+| ─────────────────────────────                             ────────────────────────       |
+|  * Web Server: Websites ke pages (HTML, CSS) load karta   -> Client = Hotel ka Customer  |
+|    hai (e.g., Apache, Nginx).                                (Jo menu dekh kar order     |
+|  * Database Server: User ka data secure store karta hai      bhejta hai).                |
+|    (e.g., MySQL, PostgreSQL).                             -> Server = Hotel ka Kitchen   |
+|  * File Server: Files aur media download/upload karne        (Jo order tayar karke khana |
+|    ke liye (e.g., Google Drive ke backend servers).          wapis bhejta hai).          |
+|                                                                                          |
+|   Quick Revision Quiz                                                                    |
+|  ─────────────────────                                 ┌─────────────┐                   |
+|   1. Aapka mobile phone is model me kya hai?            │ Network Core│ 4. Agar server    |
+|      (Client ya Server?)                                │    🌐⚡     │    down ho jaye   |
+|   2. Server se jo data wapis aata hai use kya kehte     │ (Req / Resp)│    to kya app     |
+|      hain? (Request ya Response?)                       └─────────────┘    chalegi?       |
+|__________________________________________________________________________________________|

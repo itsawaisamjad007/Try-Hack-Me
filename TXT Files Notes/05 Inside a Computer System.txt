@@ -1,0 +1,53 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       INSIDE A COMPUTER SYSTEM: HARDWARE COMPONENTS                      |
+|                      ===============================================                     |
+|                                                                                          |
+|   Computer ke casing (CPU Box ya Laptop shell) ke andar ka physical hardware jo          |
+|   mil kar saara processing, storage, aur communication ka kaam karta hai.                |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                            INTERNAL HARDWARE ARCHITECTURE                            │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │    ┌────────────────────────────────────────────────────────────────────────┐        │ |
+| │    │                        MOTHERBOARD (Main Circuit)                      │        │ |
+| │    │  ┌───────────┐       ┌───────────┐       ┌───────────┐   ┌───────────┐ │        │ |
+| │    │  │ [🧠 CPU]  │ ◄───► │ [💾 RAM]  │ ◄───► │[🗄️ SSD/HDD]│   │ [🔌 PSU]  │ │        │ |
+| │    │  └───────────┘       └───────────┘       └───────────┘   └───────────┘ │        │ |
+| │    └────────────────────────────────────────────────────────────────────────┘        │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────┬───────────────────────────────────────────────────────────────┐ |
+| │      COMPONENT       │                  DESCRIPTION & USE (Istemal)                  │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 🧩 Motherboard       │ Main Backbone. Yeh ek bara green/black board hota hai jis se  │ |
+| │                      │ computer ke saare internal parts aapas me connect hote hain.  │ |
+| │ 🧠 CPU (Processor)   │ Brain of Computer. Saari calculations aur processing isi me    │ |
+| │                      │ hoti hai. (e.g., Intel Core i5, AMD Ryzen).                   │ |
+| │ 💾 RAM (Memory)      │ Short-term Memory. Jab tak computer ON hai, yeh chalne wale   │ |
+| │                      │ apps ka data temporary hold karti hai. Fast but volatile.     │ |
+| │ 🗄️ Storage           │ Long-term Memory. Aapka permanent data (OS, Files, Videos)    │ |
+| │    (SSD / HDD)       │ yahan save hota hai. SSDs purane HDDs se bohot tez hoti hain. │ |
+| │ 🎮 GPU (Graphics)    │ Video/Image Processor. Screen par display dikhane, gaming,     │ |
+| │                      │ aur heavy video editing ko handle karta hai.                  │ |
+| │ 🔌 PSU (Power        │ Power Supply Unit. Board aur baki parts ko sahi voltage ki    │ |
+| │    Supply)           │ electricity/bijli supply karta hai.                           │ |
+| └──────────────────────┴───────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  ❄️ COOLING & BUSES (Zaroori Elements):                  💡 Real-Life Comparisons:       |
+| ─────────────────────────────────────────                 ─────────────────────────       |
+|  * Heat Sink & Fan: CPU bohot garam ho jata hai, use      -> CPU = Ek intelligent Chef.   |
+|    thanda rakhne ke liye upar fan lagaya jata hai.        -> RAM = Kitchen ka counter top |
+|  * System Buses: Motherboard par bani choti lines           jahan Chef foran kaam ke liye |
+|    jo data ko ek jagah se dosri jagah le jati hain.         saman rakhta hai.             |
+|                                                           -> Storage = Kitchen ka fridge  |
+|                                                              jahan saara saman permanently |
+|                                                              store hota hai.               |
+|                                                                                          |
+|   Quick Revision Tasks                                                                   |
+|  ──────────────────────                                ┌─────────────┐                   |
+|   1. Computer band hone par kis component ka data       │ Inside PC   │ 4. HDD aur SSD    |
+|      khali ho jata hai? (Hint: RAM)                     │    ⚙️🧠     │    me se kaun si  |
+|   2. Computer ka "Brain" kise kehte hain?               │ (Hardware)  │    storage zyadah |
+|   3. Saare parts kis main board par lagte hain?         └─────────────┘    fast hoti hai? |
+|__________________________________________________________________________________________|

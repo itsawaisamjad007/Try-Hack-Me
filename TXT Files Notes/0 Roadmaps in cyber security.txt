@@ -1,0 +1,56 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                  🌐 THE ULTIMATE CYBER SECURITY BEGINNER ROADMAP 🌐                       |
+|                  ==================================================                      |
+|                                                                                          |
+|==========================================================================================|
+| PHASE 1: THE FOUNDATION (Sab ke liye lazmi hai - 3 to 6 Months)                           |
+|==========================================================================================|
+|  1. Networking Basics 🔌  --> Learn IP Addresses, Subnetting, OSI Model, TCP/IP, Ports.  |
+|  2. Operating Systems 💻 --> Linux (Terminal, Bash scripting) + Windows (Sysinternals).   |
+|  3. Programming Intro 🐍 --> Learn Basic Python ya Bash (Automation aur scripting ke liye)|
+|  4. Basic Security 🛡️   --> Learn Cryptography, Firewalls, Threat types, CIA Triad.       |
+|                                                                                          |
+|==========================================================================================|
+| PHASE 2: CHOOSE YOUR SPECIALIZATION (Apni pasand ki field chunein)                      |
+|==========================================================================================|
+|                                                                                          |
+|  📁 FIELD A: OFFENSIVE SECURITY (Hacking Side / Red Team)                                |
+|  ────────────────────────────────────────────────────────                                |
+|  * Path: Vulnerability Assessment -> Penetration Testing -> Red Teaming.                |
+|  * Skills: Web App Hacking, Network Exploitation, Privilege Escalation, Metasploit.      |
+|  * Labs: TryHackMe, HackTheBox, PortSwigger Web Academy.                                 |
+|  * Certifications: CEH (Theory) -> EJPT (Junior Practical) -> OSCP (Gold Standard).      |
+|                                                                                          |
+|  📁 FIELD B: DEFENSIVE SECURITY (Protection Side / Blue Team)                            |
+|  ────────────────────────────────────────────────────────                                |
+|  * Path: SOC Analyst (Tier 1) -> Incident Responder -> Threat Hunter / Security Eng.     |
+|  * Skills: Log Analysis, SIEM Tools (Splunk, Wazuh), Wireshark (Network Traffic), EDR.   |
+|  * Labs: Blue Team Labs Online (BTLO), CyberDefenders, Let's Defend.                     |
+|  * Certifications: CompTIA Security+ -> BTL1 (Blue Team Level 1) -> CCD.                 |
+|                                                                                          |
+|  📁 FIELD C: DIGITAL FORENSICS & INCIDENT RESPONSE (DFIR)                                |
+|  ────────────────────────────────────────────────────────                                |
+|  * Path: Forensic Analyst -> Malware Analyst -> Reverse Engineer.                       |
+|  * Skills: Memory Forensics, Disk Imaging, Registry Analysis, Malware Analysis (Ida Pro).|
+|  * Certifications: CHFI, GCFE, Certified Reverse Engineering Analyst (CREA).             |
+|                                                                                          |
+|  📁 FIELD D: GRC (Governance, Risk & Compliance - Non-Technical/Management)              |
+|  ──────────────────────────────────────────────────────────────────────────              |
+|  * Path: IT Auditor -> Security Compliance Officer -> Consultant -> CISO.                |
+|  * Skills: Cyber Laws (GDPR, PCI-DSS, ISO 27001), Risk Assessment, Frameworks.           |
+|  * Certifications: CISA, CRISC, CISSP (For Senior Management).                           |
+|                                                                                          |
+|  📁 FIELD E: CLOUD & APPLICATION SECURITY (AppSec / DevSecOps)                            |
+|  ─────────────────────────────────────────────────────────────                           |
+|  * Path: Cloud Security Associate -> DevSecOps Engineer -> AppSec Specialist.           |
+|  * Skills: AWS/Azure Security, Docker/Kubernetes, Secure Code Review, CI/CD Pipelines.    |
+|  * Certifications: AWS Certified Security, CCSP, Certified DevSecOps Professional.       |
+|                                                                                          |
+|==========================================================================================|
+| 💡 GOLDEN ADVICE FOR BEGINNERS:                                                          |
+|------------------------------------------------------------------------------------------|
+|  Don't skip Phase 1! Zyadatar log direct hacking (Phase 2) shuru kar dete hain aur       |
+|  unhe IP address ya Linux commands ka nahi pata hota, jiski wajah se wo agay ja kar      |
+|  stuck ho jate hain. Base pakki karein, phir field chunein!                              |
+|__________________________________________________________________________________________|

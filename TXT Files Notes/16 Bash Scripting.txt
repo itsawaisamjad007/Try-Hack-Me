@@ -1,0 +1,52 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       BASH SCRIPTING: SYSTEM AUTOMATION BASICS                           |
+|                      ==========================================                          |
+|                                                                                          |
+|   Bash Script ek aesi text file hoti hai jisme hum terminal commands likhte hain.        |
+|   Is file ko run karne se saari commands ek ke baad ek khud-ba-khud chal jati hain.      |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                        ANATOMY OF A BASH SCRIPT (Basic Structure)                    │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │  #!/bin/bash               <--- SHEBANG (System ko batata hai ye Bash script hai)    │ |
+| │                                                                                      │ |
+| │  # This is a comment       <--- COMMENT (System ise read nahi karta, hamari yaad-    │ |
+| │                                 dihani ke liye hota hai)                             │ |
+| │                                                                                      │ |
+| │  NAME="Gemini"             <--- VARIABLE (Data store karne ke liye space)            │ |
+| │  echo "Hello, $NAME!"      <--- COMMAND (Output screen par show karne ke liye)       │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────┬───────────────────────────────────────────────────────────────┐ |
+| │    CORE CONCEPT      │                  SYNTAX & EXAMPLE (Likhte kaise hain?)         │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 📥 User Input        │ read -p "Enter username: " myuser                             │ |
+| │                      │ echo "Welcome $myuser"                                        │ |
+| │ ⚖️ If-Else (Decision)│ if [ $score -ge 50 ]; then                                    │ |
+| │                      │     echo "Pass"                                               │ |
+| │                      │ else                                                          │ |
+| │                      │     echo "Fail"                                               │ |
+| │                      │ fi                                                            │ |
+| │ 🔁 Loops (For Loop)  │ for i in 1 2 3; do                                            │ |
+| │                      │     echo "Number: $i"                                         │ |
+| │                      │ done                                                          │ |
+| └──────────────────────┴───────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  ⚙️ HOW TO RUN A SCRIPT (Script Chalane Ka Tarika):        💡 Bash Golden Rules:          |
+| ───────────────────────────────────────────────────        ──────────────────────          |
+|  1. File banayein: 'touch script.sh'                       -> No Spaces in Variables:     |
+|  2. Script likhein (jaise nano editor se): 'nano script.sh'   'NAME = "Ali"' galat hai.   |
+|  3. Run karne ki permission dein:                             'NAME="Ali"' sahi hai.      |
+|     'chmod +x script.sh'  <-- (Bohat zaroori step hai!)    -> Case-Sensitive: 'if' aur    |
+|  4. Script run karein: './script.sh'                          'fi' (if ka ulta) blocks    |
+|                                                               ko close karne ke liye      |
+|                                                               use hote hain.              |
+|                                                                                           |
+|   Quick Practice Tasks                                                                   |
+|  ──────────────────────                                ┌─────────────┐                   |
+|   1. Bash Script ki extension kya hoti hai?             │ Automate!   │ 4. User se input  |
+|      (Hint: .sh)                                        │    🤖⚙️      │    lene ke liye   |
+|   2. Script ko executable banane ke liye kaun si       │ (Bash Code) │    kaun si        |
+|      command use hoti hai? (Hint: chmod +x)             └─────────────┘    command hai?   |
+|__________________________________________________________________________________________|

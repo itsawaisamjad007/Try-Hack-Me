@@ -1,0 +1,44 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                     VIRTUALIZATION BASICS & ARCHITECTURE LAYOUT                          |
+|                    =============================================                         |
+|                                                                                          |
+|   Virtualization ek technical layer hai jo physical hardware aur operating system        |
+|   ke darmiyan ek "Virtual" layer banati hai, jise [HYPERVISOR] kehte hain.              |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                            VIRTUALIZATION STACK LAYOUT                               │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │   [VM 1: Windows]    [VM 2: Linux]    [VM 3: Server]  <-- GUEST MACHINES (Virtual)   │ |
+| │          │                 │                │                                        │ |
+| │   [Guest OS]        [Guest OS]       [Guest OS]                                      │ |
+| │    ▲------------------------------------------------▲                                  │ |
+| │                       HYPERVISOR (VMM)              <-- [The Translation Layer]      │ |
+| │    ▲------------------------------------------------▲                                  │ |
+| │             [ PHYSICAL HARDWARE (Host: CPU, RAM, Disk, NIC) ]                        │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  TYPES OF HYPERVISORS (VMM):                                                             |
+|  ──────────────────────────                                                              |
+|  1. TYPE 1 (Bare Metal):                                                                 |
+|     - Ye direct hardware par install hota hai.                                           |
+|     - Examples: VMware ESXi, Microsoft Hyper-V, Xen.                                     |
+|     - Performance: Bohot tez, professional server environments ke liye.                  |
+|                                                                                          |
+|  2. TYPE 2 (Hosted):                                                                     |
+|     - Ye main Operating System (jaise Windows 10/11) ke oopar chalta hai.                |
+|     - Examples: Oracle VirtualBox, VMware Workstation.                                   |
+|     - Performance: Ghar ya lab experiments ke liye best hai.                             |
+|                                                                                          |
+|  BENEFITS (Kyunk use karein?):                                                           |
+|  ─────────────────────────────                                                           |
+|  * Cost: Ek hi server par 10 alag OS chala kar paise bachayein.                          |
+|  * Isolation: Ek VM crash ho jaye to dosri par asar nahi parta.                          |
+|  * Testing: Naye software ya OS ko safe environment me test karein.                      |
+|                                                                                          |
+|   Quick Terminology                                                                      |
+|  ───────────────────                                ┌─────────────┐                      |
+|   * Host: Physical computer jahan VM chal rahi hai. │ Virtual     │ * Guest: Jo OS virtual|
+|   * Hypervisor: Software jo VM ko control karta hai.│  Reality    │   machine ke andar   |
+|   * Snapshot: VM ki current state ka backup.       │   (^_^)     │   chal raha hai.     |
+|__________________________________________________________________________________________|

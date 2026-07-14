@@ -1,0 +1,47 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                  🔴 OFFENSIVE SECURITY (ETHICAL HACKING & RED TEAM)                      |
+|                 ====================================================                     |
+|                                                                                          |
+|   "To catch a hacker, you must think like a hacker." Offensive security me hum active    |
+|   attacks ke zariye systems ki kamzoriyon (Vulnerabilities) ko dhoondte aur test karte hain.|
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                        THE HACKING LIFECYCLE (Step-by-Step)                          │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │                                                                                      │ |
+| │  [ RECONNAISSANCE ] ───► [ SCANNING ] ───► [ EXPLOITATION ] ───► [ REPORTING ]       │ |
+| │   (Information          (Ports & Services    (Access gain       (Sab theek karne     │ |
+| │    jama karna)           dhoondna)            karna/Hack)        ki report banana)   │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────┬───────────────────────────────────────────────────────────────┐ |
+| │      CORE AREA       │                  DESCRIPTION & TARGETS                        │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 🌐 Web App           │ Websites aur APIs ko hack karna (jaise SQL Injection, XSS,     │ |
+| │    Penetesting       │ ya Broken Authentication ke zariye data nikalna).             │ |
+| │ 🔌 Network           │ Servers, Routers, aur Switches me ghalat settings (misconfig) │ |
+| │    Penetesting       │ ya purane software exploits dhoond kar network me ghusna.      │ |
+| │ 👥 Social            │ Phishing emails ya fake calls ke zariye aam mulazmeen (staff)  │ |
+| │    Engineering       │ ko bewaquf bana kar passwords ya sensitive data nikalwana.     │ |
+| │ 💻 Wireless          │ Wi-Fi networks (WEP/WPA2/WPA3) ko crack karna aur traffic ko   │ |
+| │    Security          │ intercept (man-in-the-middle) karna.                          │ |
+| └──────────────────────┴───────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  🛠️ MUST-KNOW TOOLS (Hacking Tools):                      🏆 Top Certifications:         |
+| ────────────────────────────────────                      ──────────────────────         |
+|  * Kali Linux: Hacking tools se bhara hua OS.             -> eJPT (Junior Penetration    |
+|  * Nmap: Network scanning aur open ports dhoondne ke         Tester): Beginners ke liye  |
+|    liye sab se behtareen tool.                               best practical cert.        |
+|  * Metasploit: Bane-banaye exploits run karne ka framework.-> OSCP (Offensive Security    |
+|  * Burp Suite: Web traffic ko capture aur modify karne       Certified Professional):    |
+|    ka master tool.                                           Industrial gold standard.   |
+|                                                                                          |
+|   Quick Practice Quiz                                                                    |
+|  ─────────────────────                                 ┌─────────────┐                   |
+|   1. Hacking lifecycle me sab se pehla step kya hota    │  Red Team   │ 4. Wi-Fi traffic  |
+|      hai? (Hint: Reconnaissance/Info gathering)         │    ⚔️💥     │    intercept      |
+|   2. Port scanning ke liye kaun sa tool best hai?       │ (Attack side)│   karne wale     |
+|   3. Black hat aur White hat hackers me kya farq hai?   └─────────────┘   attack ko kya  |
+|                                                                           kehte hain?    |
+|__________________________________________________________________________________________|

@@ -1,0 +1,47 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       OPERATING SYSTEM (OS): BASIC LAYOUT & FUNCTIONS                    |
+|                      =================================================                   |
+|                                                                                          |
+|   Operating System (OS) ek master program hai jo computer hardware ko manage karta hai   |
+|   aur user software (Apps) ko chalane ke liye ek platform mohayya karta hai.             |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                            OPERATING SYSTEM ARCHITECTURE                             │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │         [ USER ] ◄───► [ APPLICATIONS ] ◄───► [ OS ] ◄───► [ HARDWARE ]              │ |
+| │     (Hum log)         (Chrome, Games)     (Win/Linux)    (CPU, RAM, Disk)            │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────┬───────────────────────────────────────────────────────────────┐ |
+| │    MAIN FUNCTION     │                  DESCRIPTION & USE (Istemal)                  │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 🧠 Process           │ CPU scheduling karna. Pata lagana ke kaun sa program kab aur  │ |
+| │   Management         │ kitni der ke liye CPU istemal karega.                         │ |
+| │ 💾 Memory            │ RAM ko manage karna. Jab koi app khulti hai to use jagah dena │ |
+| │   Management         │ aur band hone par RAM khali karwana.                          │ |
+| │ 🗂️ File              │ Data ko storage (SSD/HDD) me sahi tarike se files aur folders │ |
+| │   Management         │ ki shakal me save aur delete karne ka kam.                    │ |
+| │ 🔌 Device            │ Hardware devices (Mouse, Keyboard, Printer) ke drivers ko     │ |
+| │   Management         │ control karna taake wo computer ke sath sahi kaam karein.     │ |
+| │ 🛡️ Security          │ Passwords aur firewall ke zariye unauthorized users aur       │ |
+| │                      │ malware/viruses se system ko mahfooz rakhna.                  │ |
+| └──────────────────────┴───────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  📌 POPULAR TYPES OF OS (Aam Iqsām):                      💡 OS Golden Concepts:         |
+| ─────────────────────────────────────                     ──────────────────────         |
+|  * Windows: Sab se zyada istemal hone wala desktop OS     -> Kernel: Operating System ka  |
+|    jo bohot user-friendly (GUI) hai.                         asli "dil aur dimaag" jo    |
+|  * Linux: Open-source aur secure OS jo zyadatar servers,     direct hardware se baatein  |
+|    cloud, aur hacking labs me use hota hai.                  karta hai.                  |
+|  * macOS: Apple ke laptops aur computers ka premium OS.   -> Booting: Computer ko on     |
+|  * Android / iOS: Mobile phones ke liye banaye gaye OS.      karne par OS ka RAM me load |
+|                                                              hone ke process ko kehte hain.|
+|                                                                                          |
+|   Quick Revision Quiz                                                                    |
+|  ─────────────────────                                 ┌─────────────┐                   |
+|   1. OS ke core part ko kya kehte hain?                 │  Master OS  │ 4. Kya computer   |
+|      (Hint: Kernel)                                     │    🧠⚙️      │    bina OS ke     |
+|   2. RAM ko manage karna kis ka kaam hai?               │ (The Bridge)│    chal sakta hai?|
+|   3. Kisi ek open-source OS ka naam batayein?           └─────────────┘    (Sochein!)     |
+|__________________________________________________________________________________________|

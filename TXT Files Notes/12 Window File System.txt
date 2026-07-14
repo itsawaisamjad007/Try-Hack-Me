@@ -1,0 +1,48 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                     WINDOWS FILE SYSTEM HIERARCHY & LAYOUT                               |
+|                    ========================================                              |
+|                                                                                          |
+|             [ C:\ ]  <--- PRIMARY DRIVE ROOT (Main Partition)                             |
+|               │                                                                          |
+|     ┌─────────┼─────────┬─────────┬─────────┬─────────┐                                  |
+|     ▼         ▼         ▼         ▼         ▼         ▼                                  |
+| [Windows] [Program   [Program   [Users]   [PerfLogs] [Recovery]                          |
+|            Files]    Files(x86)]                                                         |
+|                                                                                          |
+| ┌──────────────────┬───────────────────────────────────────────────────────────────────┐ |
+| │    DIRECTORY     │                  DESCRIPTION & USE (Istemal)                      │ |
+| ├──────────────────┼───────────────────────────────────────────────────────────────────┤ |
+| │  C:\             │ Root Partition. Windows ki saari core files isi me install hoti   │ |
+| │                  │ hain.                                                             │ |
+| │  \Windows        │ OS Core Files. Isme core system files, drivers (System32 folder),  │ |
+| │                  │ aur default wallpapers/fonts wagera hote hain.                   │ |
+| │  \Program Files  │ 64-bit Applications. Jo softwares aap install karte hain (jaise   │ |
+| │                  │ Photoshop, Chrome) unka data yahan jata hai.                      │ |
+| │  \Program Files  │ 32-bit Applications. Purane ya 32-bit architecture wale apps ka  │ |
+| │       (x86)      │ data is directory me save hota hai.                               │ |
+| │  \Users          │ User Profiles. Isme har user ka apna personal data (Desktop,      │ |
+| │                  │ Documents, Downloads, Music, Pictures) alag folder me hota hai.   │ |
+| │  \PerfLogs       │ Performance Logs. Windows system ke performance aur issues ki      │ |
+| │                  │ report reports yahan store karta hai.                             │ |
+| └──────────────────┴───────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  📊 HARD DRIVE ARCHITECTURES (File Formats) :-            🧠 Quick Technical Tips:        |
+| ──────────────────────────────────────────────            ────────────────────────        |
+|  * NTFS (New Technology File System): Windows ka modern    -> \Windows\System32 folder    |
+|    default file system jo bari files aur security data       me computer ke sab se zaroori |
+|    ko support karta hai.                                     boot aur system files hote    |
+|  * FAT32: Purana format jo sab devices (Mac, Linux, TV)      hain, ise delete nahi karna!  |
+|    par chal jata hai par isme 4GB se bari file save nahi   -> Hidden AppData: Har user     |
+|    ho sakti.                                                 ke folder me ek hidden folder |
+|  * exFAT: USB Flash drives ke liye best hai kyunki isme      'AppData' hota hai jahan apps |
+|    FAT32 ki tarah 4GB ki limit nahi hoti.                    apna settings data rakhte hain|
+|                                                                                          |
+|   Practice Tasks                                                                         |
+|  ────────────────                                  ┌─────────────┐                       |
+|   1. Apne PC me Run box (Win+R) khol kar 'cmd'      │ Windows OS  │ 4. Apne C: drive par |
+|      likhein aur root directory dekhne ke liye      │   🖥️⚙️      │    right-click karke |
+|      'cd \' chalayein.                              │ (NTFS Core) │    Properties me     |
+|   2. User profile folder me direct jaane ke liye    └─────────────┘    check karein ke   |
+|      Run box me '%userprofile%' likh kar enter karein.                 file system kya hai. |
+|__________________________________________________________________________________________|

@@ -1,0 +1,53 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       CYBER SECURITY CAREER PATHWAYS & FIELDS                            |
+|                      =========================================                           |
+|                                                                                          |
+|   Cyber Security ka maqsad networks, devices, programs, aur data ko cyber attacks,     |
+|   damage, ya unauthorized access se safe rakhna hai. Isme career ke bohot se raste hain.|
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                      1. THE TWO MAIN SIDES (Main Teamon Ke Raste)                    │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │  🔴 RED TEAM (Offensive Security / Ethical Hacking)                                  │ |
+| │  - Inka kaam hackers ki tarah sochna aur system me khamiyan (vulnerabilities)        │ |
+| │    dhoondna hota hai taake unhe pehle hi theek kiya ja sake.                         │ |
+| │  - Job Roles: Ethical Hacker, Penetration Tester, Vulnerability Assessor.            │ |
+| │                                                                                      │ |
+| │  🔵 BLUE TEAM (Defensive Security / System Protection)                               │ |
+| │  - Inka kaam system ko 24/7 monitor karna, attacks ko rokna, aur agar attack ho      │ |
+| │    jaye to us par foran action lena hota hai.                                         │ |
+| │  - Job Roles: SOC Analyst, Security Engineer, Incident Responder.                    │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                      2. CORE CYBER SECURITY JOB ROLES                                │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │  * SOC Analyst (Tier 1/2/3): Network traffic ko monitor karna aur ajeeb activity ko  │ |
+| │    pakadna. Entry-level ke liye behtareen job hai.                                   │ |
+| │  * Penetration Tester: Company ki ijazat se unke networks par "fake attack" karna    │ |
+| │    taake security check ki ja sake.                                                  │ |
+| │  * Digital Forensics Expert: Cyber crime hone ke baad investigation karna, data       │ |
+| │    recover karna, aur saboot (evidence) dhoondna.                                    │ |
+| │  * CISO (Chief Information Security Officer): Kisi bhi company me cyber security ka  │ |
+| │    sab se bada boss jo poori security strategy banata hai (Top Executive level).     │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  🎓 TOP GLOBAL CERTIFICATIONS:                             💡 How to Start?              |
+|  ─────────────────────────────                            ────────────────              |
+|  * CompTIA Security+: Beginners ke liye sab se best       -> Basics First: Pehle Networking|
+|    starting certificate hai.                                 (CCNA) aur OS (Linux/Windows)|
+|  * CEH (Certified Ethical Hacker): Ethical hacking ke        ke basics ko pakka karein.   |
+|    concepts seekhne ke liye ahem hai.                                                     |
+|  * OSCP (Offensive Security Certified Professional):       -> Practice: HackTheBox ya     |
+|    Advance practical hacking certification.                  TryHackMe par hands-on labs  |
+|  * CISSP: Management aur senior levels ke liye gold          ki practice karein.          |
+|    standard certificate mana jata hai.                                                    |
+|                                                                                          |
+|   Quick Self-Assessment                                                                  |
+|  ──────────────────────                                ┌─────────────┐                   |
+|   1. Agar aapko investigation aur dhoond-dhankaar        │ Secure Your │ 4. System par    |
+|      shauq hai, to konsi team best hai? (Red ya Blue?)   │   Future!   │    defensive     |
+|   2. Security+ kis level ka certificate hai?             │    (🛡️)     │    monitoring    |
+|   3. SOC Analyst kis team ka hissa hote hain?            └─────────────┘    kaun karta hai?|
+|__________________________________________________________________________________________|

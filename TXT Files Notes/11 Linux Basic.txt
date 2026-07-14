@@ -1,0 +1,52 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       LINUX OPERATING SYSTEM: BASIC COMMANDS                             |
+|                      ========================================                            |
+|                                                                                          |
+|   Linux ek open-source operating system hai. Isme kaam karne ke liye hum Terminal        |
+|   (Command Line) use karte hain jahan choti choti commands likh kar kaam hota hai.       |
+|                                                                                          |
+| ┌───────────────┬─────────────────────────┬──────────────────────┬──────────────────────┐|
+| │   COMMAND     │           USE           │       EXAMPLE        │     DESCRIPTION      │|
+| ├───────────────┼─────────────────────────┼──────────────────────┼──────────────────────┤|
+| │ pwd           │ Print Working Directory │ pwd                  │ Batata hai ke aap ab │|
+| │               │                         │                      │ kis folder ke andar hain.│|
+| │ ls            │ List Files & Folders    │ ls                   │ Current folder me jo │|
+| │               │                         │                      │ kuch hai, show karta hai.│|
+| │ cd            │ Change Directory        │ cd Documents         │ Kisi folder ke andar │|
+| │               │                         │                      │ jaane ke liye istemal.│|
+| │ cd ..         │ Go Back One Folder      │ cd ..                │ Ek step piche wale   │|
+| │               │                         │                      │ folder me le jata hai.│|
+| │ mkdir         │ Make Directory          │ mkdir MyFolder       │ Naya empty folder    │|
+| │               │                         │                      │ banata hai.          │|
+| │ touch         │ Create File             │ touch notes.txt      │ Kisi bhi extension ki│|
+| │               │                         │                      │ khali file banata hai.│|
+| │ rm            │ Remove File             │ rm notes.txt         │ File ko hamesha ke   │|
+| │               │                         │                      │ liye delete karta hai.│|
+| │ rm -r         │ Remove Folder           │ rm -r MyFolder       │ Poora folder aur us ka│|
+| │               │                         │                      │ data delete karta hai.│|
+| │ cat           │ View File Content       │ cat notes.txt        │ File ke andar kya    │|
+| │               │                         │                      │ likha hai, show karta hai.│|
+| │ clear         │ Clear Terminal Screen   │ clear                │ Terminal ki screen ko│|
+| │               │                         │                      │ saaf kar deta hai.   │|
+| └───────────────┴─────────────────────────┴──────────────────────┴──────────────────────┘|
+|                                                                                          |
+|  🐧 IMPORTANT LINUX TERMINOLOGY :-                        💡 Pro Tips for Linux:         |
+| ───────────────────────────────────                       ───────────────────────        |
+|  * Root User (Sudo): Linux ka sab se bada admin. Jab       -> Auto-Complete: Command ya   |
+|    koi aesi command chalani ho jo system badle, to           folder ka naam aadha likh kar|
+|    shuru me 'sudo' lagate hain (e.g., sudo apt update).      'Tab' key dabayein, naam     |
+|  * Terminal: Wo window jahan commands likhi jati hain.       khud poora ho jayega!        |
+|  * Case-Sensitive: Linux me 'MyFile' aur 'myfile' do       -> Command History: Purani     |
+|    alag alag cheezon ke naam shamil hote hain.               commands dekhne ke liye      |
+|                                                              Keyboard ke Up-Arrow key ko  |
+|                                                              dabayein.                    |
+|                                                                                          |
+|   Quick Revision Tasks                                                                   |
+|  ──────────────────────                                ┌─────────────┐                   |
+|   1. Pata karo aap kis directory me ho 'pwd' chala kar. │  Linux OS   │ 4. Ek naya folder|
+|   2. 'mkdir Practice' likh kar ek folder banao.        │    🐧⚡     │    banao aur pir  |
+|   3. Us folder ke andar jaane ke liye 'cd Practice'     │ (CLI Core)  │    'ls' se check  |
+|      type karo.                                         └─────────────┘    karo ke bana   |
+|                                                                            ya nahi.       |
+|__________________________________________________________________________________________|

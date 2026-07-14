@@ -1,0 +1,48 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                  🔵 DEFENSIVE SECURITY (CYBER DEFENSE & BLUE TEAM)                       |
+|                 ===================================================                      |
+|                                                                                          |
+|   Defensive Security ka maqsad attack hone se pehle use rokna (Prevention), attack ko    |
+|   sahi waqt par pakadna (Detection), aur us par action lena (Response) hota hai.         |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                       THE THREE PILLARS OF DEFENSE (CIA Triad)                       │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │                                                                                      │ |
+| │      [ Confidentiality ]  ◄───► Only authorized people can read the data.            │ |
+| │      [ Integrity ]        ◄───► Data must not be altered or tampered with.           │ |
+| │      [ Availability ]     ◄───► Systems and services must be accessible 24/7.        │ |
+| │                                                                                      │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────┬───────────────────────────────────────────────────────────────┐ |
+| │      CORE AREA       │                  DESCRIPTION & STRATEGIES                     │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 🛡️ Hardening         │ Systems ki default settings ko change karke secure banana      │ |
+| │                      │ (jaise unused ports ko close karna, strong passwords lagana). │ |
+| │ 📊 SOC Monitoring     │ Security Operations Center (SOC) me baith kar network traffic  │ |
+| │                      │ aur system logs ko 24/7 analyze karna.                        │ |
+| │ 🚨 Incident Response │ Jab koi cyber attack ho jaye (jaise Ransomware), to system ko │ |
+| │                      │ isolate karna, nuksan bachana, aur malware ko remove karna.   │ |
+| │ 🕵️ Threat Hunting    │ Network me pehle se chupe hue undetected threats aur hackers  │ |
+| │                      │ ko dhoond dhoond kar nikalna.                                 │ |
+| └──────────────────────┴───────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  🛠️ DEFENSIVE TOOLS (Defense Tools):                      🏆 Top Certifications:         |
+| ───────────────────────────────────                      ──────────────────────         |
+|  * Wireshark: Network packets ko capture aur analyze      -> CompTIA Security+: Security |
+|    karne ka sab se mashhoor tool.                            ki basic concepts ke liye.  |
+|  * Splunk / Wazuh: SIEM tools jo pure network ke logs     -> BTL1 (Blue Team Level 1):   |
+|    ko ek jagah jama karke alerts generate karte hain.        Hands-on practical blue-team.|
+|  * Firewalls / IPS: Unwanted traffic ko block karne ke    -> GCIH (GIAC Certified        |
+|    liye system ke bahr pehra dena.                           Incident Handler): Advance. |
+|                                                                                          |
+|   Quick Practice Quiz                                                                    |
+|  ─────────────────────                                 ┌─────────────┐                   |
+|   1. Data ko unauthorized access se bachane ko kya      │  Blue Team  │ 4. Attack hone   |
+|      kehte hain? (Hint: Confidentiality)                │    🛡️⚓     │    ke baad sab   |
+|   2. Logs ko analyze karne ke liye kaun se tools use    │(Defense side)│   theek karne    |
+|      hote hain? (e.g., SIEM / Splunk)                   └─────────────┘   wali team ko   |
+|   3. System ko secure karne ke process ko kya kehte hain?                 kya kehte hain?|
+|__________________________________________________________________________________________|

@@ -1,0 +1,50 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       CLOUD COMPUTING: BASIC REVISION NOTES                              |
+|                      =======================================                             |
+|                                                                                          |
+|   Cloud Computing ka matlab hai computing services (RAM, CPU, Storage, Databases)         |
+|   ko internet ke zariye on-demand rent par lena aur istemal karna.                       |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                       1. SERVICE MODELS (Kya cheez rent par milti hai?)               │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │  * IaaS (Infrastructure as a Service): Sirf raw hardware (VMs, Hard Drives, Network) │ |
+| │    rent par lena. Aap baaqi OS aur software khud manage karte hain.                  │ |
+| │    --> Examples: Amazon EC2, Google Compute Engine, Microsoft Azure VMs.            │ |
+| │                                                                                      │ |
+| │  * PaaS (Platform as a Service): Hardware + Development Platform milta hai. Programmers│ |
+| │    sirf apna code likhte hain, baqi runtime aur OS cloud sambhalta hai.               │ |
+| │    --> Examples: AWS Elastic Beanstalk, Heroku, Google App Engine.                    │ |
+| │                                                                                      │ |
+| │  * SaaS (Software as a Service): Bani-banai ready application jo internet par chalti  │ |
+| │    hai. Aap ko kuch bhi install ya code nahi karna parta.                            │ |
+| │    --> Examples: Gmail, Google Drive, Microsoft Office 365, Netflix.                  │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                       2. DEPLOYMENT MODELS (Cloud kahan setup hai?)                  │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │  * Public Cloud  --> Sab ke liye open (Internet par). Jo use karega, wo pay karega.  │ |
+| │                      (e.g., AWS, Google Cloud, Azure).                               │ |
+| │  * Private Cloud --> Kisi aik specific company ka apna zati secure cloud networking. │ |
+| │  * Hybrid Cloud  --> Public + Private dono ka mix. Data security ke liye best hai.  │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  🌟 CORE BENEFITS (Faide):                                💡 Cloud Golden Word:         |
+|  ─────────────────────────                                ─────────────────────          |
+|  * Pay-as-you-go: Jitna use karo, sirf utne ke            -> "On-Demand Self-Service":   |
+|    paise do (Jaise bijli ka bill hota hai).                  Jab chahiye, aik click se   |
+|  * Scalability: Jab users barhein, aik click se              server hazir ho jata hai.   |
+|    RAM aur Storage barha lo.                                                             |
+|  * No Maintenance: Hardware kharab hone par               -> Cloud me data multiple      |
+|    safai ya repair data centers khud karte hain.             backups me safe rehta hai.  |
+|                                                                                          |
+|   Quick Test/Quiz                                                                        |
+|  ─────────────────                                 ┌─────────────┐                       |
+|   1. Google Drive kis service model ki example     │ Think Cloud │ 4. Agar aapko apni    |
+|      hai? (IaaS, PaaS, ya SaaS?)                   │    ☁️☁️      │    company ka data    |
+|   2. AWS ka matlab kya hota hai?                   │  (Anywhere) │    bohot secure       |
+|      (Hint: Amazon Web Services)                   └─────────────┘    rakhna ho to konsa |
+|   3. Hybrid cloud me kaun se do models milte hain?                    model best hai?    |
+|__________________________________________________________________________________________|

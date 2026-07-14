@@ -1,0 +1,54 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                     WINDOWS SYSINTERNALS SUITE: ADVANCED UTILITIES                       |
+|                    ================================================                      |
+|                                                                                          |
+|   Sysinternals aese advanced tools hain jo Windows ke normal functions (jaise Task       |
+|   Manager) se hazar guna zyada gehrai (under-the-hood) me ja kar data dikhate hain.      |
+|                                                                                          |
+| ┌──────────────────────────────────────────────────────────────────────────────────────┐ |
+| │                       THE "BIG THREE" MUST-KNOW UTILITIES                            │ |
+| ├──────────────────────────────────────────────────────────────────────────────────────┤ |
+| │  1. Process Explorer (procexp.exe)  -- [Super Task Manager]                           │ |
+| │     - Ye dikhata hai ke kaun sa process kis file (DLL) ko use kar raha hai aur kis   │ |
+| │       parent process ne use launch kiya. Malware detection ke liye sab se zaroori hai.│ |
+| │                                                                                      │ |
+| │  2. Process Monitor (procmon.exe)  -- [Real-time System Activity Tracker]             │ |
+| │     - Real-time me registry changes, file system access, aur process execution ko     │ |
+| │       capture karta hai. Isme filter lagana sab se ahem skill hai.                   │ |
+| │                                                                                      │ |
+| │  3. Autoruns (autoruns.exe)  -- [Startup Inspector]                                   │ |
+| │     - Computer start hote hi chalne wale har ek program, service, browser extension, │ |
+| │       aur driver ki list dikhata hai. Hackers aksar yahan apna malware chupate hain. │ |
+| └──────────────────────────────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+| ┌──────────────────────┬───────────────────────────────────────────────────────────────┐ |
+| │     OTHER TOOLS      │                  DESCRIPTION & USE (Istemal)                  │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 📁 AccessChk         │ Check karta hai ke kisi specific user ko kis file, folder, ya │ |
+| │                      │ registry key par kya permissions (read/write) mili hui hain.  │ |
+| │ 🔗 TCPView           │ Computer par hone wali har active network connection ko live   │ |
+| │                      │ dikhata hai ke kaun sa app kis IP address se baat kar raha hai│ |
+| │ 🛡️ Sysmon            │ System Monitor. Background service jo system events ko deep    │ |
+| │   (System Monitor)   │ level par event log me record karti hai (for security SOC).   │ |
+| │ 🔍 Strings           │ Kisi bhi executable (.exe) file ke andar chupe hue plain text │ |
+| │                      │ (IPs, domains, messages) ko extract karne ke liye command tool│ |
+| └──────────────────────┴───────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  ⚙️ HOW TO GET THEM (Istemal Ka Sahi Tarika):             💡 Blue Team Golden Rule:      |
+| ─────────────────────────────────────────────             ─────────────────────────      |
+|  * Live Link (No Download): Browser me                    -> Process Explorer me         |
+|    'live.sysinternals.com' par ja kar aap direct             'Options -> Verify Image    |
+|    kisi bhi tool ko baghair download kiye chala              Signatures' click karne se  |
+|    sakte hain.                                               Windows ke fake/malicious   |
+|  * Sysinternals Suite: Ek single zip file me saare          processes pakre jate hain   |
+|    tools download karne ke liye Microsoft web use karein.    (wo red/unverified hote).   |
+|                                                                                          |
+|   Quick Revision Tasks                                                                   |
+|  ──────────────────────                                ┌─────────────┐                   |
+|   1. Windows boot startup check karne ke liye kaun sa   │Sysinternals │ 4. Process       |
+|      tool sab se best hai? (Hint: Autoruns)             │    🖥️🔍     │    Explorer me   |
+|   2. Real-time system calls monitor karne wala tool     │ (Deep Info) │    unverified files│
+|      kaun sa hai? (Hint: Procmon)                       └─────────────┘    kis color me  |
+|   3. active IP connections kis se check hoti hain?                         dikhti hain?  |
+|__________________________________________________________________________________________|

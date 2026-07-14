@@ -1,0 +1,42 @@
+__________________________________________________________________________________________
+|                                                                                          |
+|                       WINDOWS OPERATING SYSTEM: BASIC LAYOUT                             |
+|                      ========================================                            |
+|                                                                                          |
+|   Windows Microsoft ka banaya hua ek GUI (Graphical User Interface) Operating System     |
+|   hai, jisme hum commands likhne ki bajaye icons aur mouse se kaam karte hain.           |
+|                                                                                          |
+| ┌──────────────────────┬───────────────────────────────────────────────────────────────┐ |
+| │   CORE COMPONENT     │                  DESCRIPTION & FUNCTION                       │ |
+| ├──────────────────────┼───────────────────────────────────────────────────────────────┤ |
+| │ 🖥️ Desktop          │ Computer start hone ke baad jo main screen aati hai. Isme     │ |
+| │                      │ wallpapers aur short-cuts hote hain.                          │ |
+| │ 🗂️ File Explorer     │ Iska shortcut 'Win + E' hai. Yeh aapke computer ke saare      │ |
+| │                      │ files, folders, aur drives (C:, D:) ko manage karta hai.      │ |
+| │ 📥 Taskbar           │ Screen ke niche wali lambi patti jahan Start Button, Clock,   │ |
+| │                      │ aur currently chalne wale apps show hote hain.                │ |
+| │ ⚙️ Control Panel     │ System ki main settings jahan se aap password badal sakte     │ |
+| │    / Settings        │ hain, naye softwares install ya uninstall karte hain.          │ |
+| │ 🗑️ Recycle Bin       │ Delete ki hui files temporary yahan aati hain. Agar galti se  │ |
+| │                      │ delete ho jaye to yahan se wapis 'Restore' ho sakti hain.     │ |
+| └──────────────────────┴───────────────────────────────────────────────────────────────┘ |
+|                                                                                          |
+|  📁 FILE & FOLDER BASICS (Zaroori Maloomat):              💡 Windows Golden Rules:       |
+| ───────────────────────────────────────────              ─────────────────────────       |
+|  * File vs Folder: Folder ek "basta/bag" hai aur          -> Permanent Delete: Agar file |
+|    file uske andar ka "kaghaz" hai. Folder ke               Recycle bin me bheje baghair |
+|    andar files aur mazeed sub-folders ho sakte hain.        delete karni ho to           |
+|  * Extensions: File ke naam ke aakhir me lagta hai          'Shift + Delete' dabayein.   |
+|    jo batata hai file kis tarah ki hai:                   -> Refresh: System ko refresh  |
+|    - .txt (Notepad file)  - .mp4 (Video file)               karne ke liye Desktop par    |
+|    - .docx (Word file)    - .exe (Software installer)       right-click karein ya 'F5'.  |
+|                                                                                          |
+|   Quick Practice Tasks                                                                   |
+|  ──────────────────────                                ┌─────────────┐                   |
+|   1. Desktop par khali jagah par right-click karke      │  Windows    │ 4. 'Win + D'     |
+|      New -> Folder par click karke naya folder banao.  │   Basics    │    daba kar check |
+|   2. Kisi bhi file ka naam badalna (Rename) ho to       │    🖥️⚡     │    karein saari  |
+|      us par click karke 'F2' dabao.                     │ (GUI Core)  │    windows ek    |
+|   3. Run box kholne ke liye 'Win + R' press karein.     └─────────────┘    sath chupti   |
+|                                                                            hain ya nahi. |
+|__________________________________________________________________________________________|
