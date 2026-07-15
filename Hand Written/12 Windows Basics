@@ -79,7 +79,10 @@
    Basic CMD Commands :-
                         * cd ( pwd ) :
                               To check current dir location.
-
+                        * color r :
+                                  Change color of cmd.
+   VIP                  * dir /s(ls -R) :
+                                 To see sub folder
                         * help command :
                                         To know help of command.
 
