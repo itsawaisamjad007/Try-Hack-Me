@@ -4,3 +4,22 @@ Data Representation :-
                               The goal of the Data Representation room is to understand how computers store
                               and process information. Every type of data—text, images, audio, and videos—is
                               ultimately represented using binary (0s and 1s).
+
+Learning Map :-
+              * Binary
+              * Decimal
+              * Hexadecimal
+              * ASCII
+              * Unicode
+              * Base64
+              * Bits and Bytes
+
+1. Binary (Base-2)
+Definition
+
+Binary is the number system used by computers. It contains only two digits:
+
+* 0
+* 1
+
+Every piece of information inside a computer is stored as binary.
